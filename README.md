@@ -6,6 +6,11 @@
 
 Ez egy modern Laravel alkalmazás, amely készen áll a használatra. Az alkalmazás tartalmazza az alapvető Laravel funkcionalitásokat és egy egyszerű, responsive weboldalt.
 
+## Élő Oldalak
+
+- 🌐 **Éles oldal**: [https://faszomtovevalamifaszfaszgeci2.vercel.app](https://faszomtovevalamifaszfaszgeci2.vercel.app)
+- ⚙️ **Vercel admin oldal**: [https://vercel.com/csukaj/faszomtovev2](https://vercel.com/csukaj/faszomtovev2)
+
 ## Funkciók
 
 - ✅ Laravel alapstruktúra
