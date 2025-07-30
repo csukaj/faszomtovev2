@@ -86,11 +86,37 @@
                 background: #ffd700;
                 color: #1a365d;
             }
+
+            .nav-links {
+                display: flex;
+                gap: 1rem;
+                margin-top: 1rem;
+                flex-wrap: wrap;
+            }
+
+            .nav-link {
+                color: #ffd700;
+                text-decoration: none;
+                padding: 0.5rem 1rem;
+                border: 1px solid #ffd700;
+                border-radius: 4px;
+                transition: all 0.3s ease;
+                font-size: 0.9rem;
+            }
+
+            .nav-link:hover {
+                background: #ffd700;
+                color: #1a365d;
+            }
         </style>
     </head>
     <body>
         <div class="header">
             <h1>🏠 FaszomTove2 Főoldal</h1>
+            <div class="nav-links">
+                <a href="/" class="nav-link">Kezdőlap</a>
+                <a href="/kapcsolat" class="nav-link">Kapcsolat</a>
+            </div>
         </div>
 
         <div class="container">
