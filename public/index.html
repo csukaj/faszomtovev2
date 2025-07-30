@@ -28,6 +28,26 @@
             border-radius: 4px;
             margin-bottom: 20px;
         }
+        .three-column-block {
+            display: flex;
+            gap: 20px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        .column {
+            flex: 1;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            border: 1px solid #e9ecef;
+            text-align: center;
+        }
+        .column.middle {
+            font-size: 1.25em;
+            font-weight: 600;
+            background: #e3f2fd;
+            border-color: #bbdefb;
+        }
     </style>
 </head>
 <body>
@@ -39,6 +59,22 @@
             ✅ Laravel alkalmazás sikeresen létrehozva és működik!
         </div>
         <p>Ez egy egyszerű Laravel alkalmazás index fájlja. Az alkalmazás készen áll a használatra.</p>
+        
+        <div class="three-column-block">
+            <div class="column">
+                <h3>Első oszlop</h3>
+                <p>Ez az első oszlop placeholder szövege. Itt találhatók az alkalmazás alapvető információi és funkciói.</p>
+            </div>
+            <div class="column middle">
+                <h3>Középső oszlop</h3>
+                <p>Ez a középső oszlop nagyobb méretű szövegével. Itt kerülnek a legfontosabb tartalmak kiemelésre.</p>
+            </div>
+            <div class="column">
+                <h3>Harmadik oszlop</h3>
+                <p>Ez a harmadik oszlop placeholder szövege. További hasznos információk és linkek találhatók itt.</p>
+            </div>
+        </div>
+        
         <p><a href="/">🏠 Ugrás a főoldalra</a></p>
     </div>
 </body>
