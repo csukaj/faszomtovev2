@@ -24,12 +24,36 @@
                 background: rgba(0,0,0,0.2);
                 padding: 1rem 2rem;
                 backdrop-filter: blur(10px);
+                display: flex;
+                align-items: center;
+                gap: 1rem;
             }
 
             .header h1 {
                 margin: 0;
                 font-size: 2rem;
                 font-weight: 600;
+            }
+
+            .character-icon {
+                font-size: 3rem;
+                filter: drop-shadow(0 2px 4px rgba(255, 215, 0, 0.3));
+            }
+
+            @media (max-width: 768px) {
+                .header {
+                    flex-direction: column;
+                    text-align: center;
+                    gap: 0.5rem;
+                }
+                
+                .character-icon {
+                    font-size: 2.5rem;
+                }
+                
+                .header h1 {
+                    font-size: 1.5rem;
+                }
             }
 
             .container {
@@ -90,6 +114,7 @@
     </head>
     <body>
         <div class="header">
+            <div class="character-icon">👩‍💼</div>
             <h1>🏠 FaszomTove2 Főoldal</h1>
         </div>
 
