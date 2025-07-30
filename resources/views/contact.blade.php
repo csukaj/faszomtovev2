@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Főoldal - FaszomTove2</title>
+        <title>Kapcsolat - FaszomTove2</title>
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
         <style>
@@ -32,6 +32,26 @@
                 font-weight: 600;
             }
 
+            .navigation {
+                display: flex;
+                gap: 1rem;
+                margin-top: 1rem;
+            }
+
+            .nav-link {
+                color: #ffd700;
+                text-decoration: none;
+                padding: 0.5rem 1rem;
+                border: 1px solid #ffd700;
+                border-radius: 4px;
+                transition: all 0.3s ease;
+            }
+
+            .nav-link:hover {
+                background: #ffd700;
+                color: #1a365d;
+            }
+
             .container {
                 max-width: 800px;
                 margin: 2rem auto;
@@ -52,82 +72,69 @@
                 margin-top: 0;
             }
 
-            .features {
+            .contact-info {
                 display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
                 gap: 1.5rem;
                 margin-top: 2rem;
             }
 
-            .feature {
+            .contact-item {
                 background: rgba(255,255,255,0.05);
                 padding: 1.5rem;
                 border-radius: 8px;
                 border-left: 4px solid #ffd700;
             }
 
-            .feature h3 {
+            .contact-item h3 {
                 margin-top: 0;
                 color: #ffd700;
             }
 
-            .back-link {
-                color: #ffd700;
-                text-decoration: none;
-                display: inline-block;
-                margin-top: 2rem;
-                padding: 0.5rem 1rem;
-                border: 1px solid #ffd700;
-                border-radius: 4px;
-                transition: all 0.3s ease;
-                margin-right: 1rem;
-            }
-
-            .back-link:hover {
-                background: #ffd700;
-                color: #1a365d;
-            }
-
-            .navigation {
-                margin-top: 2rem;
+            .contact-item p {
+                margin: 0.5rem 0;
             }
         </style>
     </head>
     <body>
         <div class="header">
-            <h1>🏠 FaszomTove2 Főoldal</h1>
+            <h1>📞 Kapcsolat</h1>
+            <div class="navigation">
+                <a href="/" class="nav-link">← Kezdőlap</a>
+                <a href="/home" class="nav-link">Főoldal</a>
+            </div>
         </div>
 
         <div class="container">
             <div class="card">
-                <h2>Üdvözöllek a főoldalon!</h2>
-                <p>Ez a FaszomTove2 Laravel alkalmazás főoldala. Az alkalmazás sikeresen működik és minden funkció elérhető.</p>
+                <h2>Vedd fel velünk a kapcsolatot!</h2>
+                <p>Ha bármilyen kérdésed van a FaszomTove2 alkalmazással kapcsolatban, ne habozz felvenni velünk a kapcsolatot.</p>
                 
-                <div class="features">
-                    <div class="feature">
-                        <h3>⚡ Laravel Framework</h3>
-                        <p>Modern PHP framework a legújabb funkcionalitásokkal.</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>📧 Email</h3>
+                        <p>info@faszomtove2.hu</p>
+                        <p>support@faszomtove2.hu</p>
                     </div>
                     
-                    <div class="feature">
-                        <h3>🎨 Responsive Design</h3>
-                        <p>Minden eszközön tökéletesen működő dizájn.</p>
+                    <div class="contact-item">
+                        <h3>📱 Telefon</h3>
+                        <p>+36 1 234 5678</p>
+                        <p>Hétfő-Péntek: 9:00-17:00</p>
                     </div>
                     
-                    <div class="feature">
-                        <h3>🚀 Gyors Betöltés</h3>
-                        <p>Optimalizált kód a legjobb teljesítményért.</p>
+                    <div class="contact-item">
+                        <h3>📍 Cím</h3>
+                        <p>1051 Budapest</p>
+                        <p>Példa utca 123.</p>
+                        <p>Magyarország</p>
                     </div>
                     
-                    <div class="feature">
-                        <h3>🔒 Biztonság</h3>
-                        <p>Laravel beépített biztonsági funkciói.</p>
+                    <div class="contact-item">
+                        <h3>🌐 Online</h3>
+                        <p>GitHub: github.com/csukaj</p>
+                        <p>Laravel Közösség</p>
                     </div>
-                </div>
-
-                <div class="navigation">
-                    <a href="/" class="back-link">← Vissza a kezdőlapra</a>
-                    <a href="/kapcsolat" class="back-link">Kapcsolat</a>
                 </div>
             </div>
         </div>
