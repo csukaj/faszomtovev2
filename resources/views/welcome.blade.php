@@ -87,6 +87,7 @@
             </div>
             <div class="links">
                 <a href="/home" class="link">Főoldal</a>
+                <a href="/kapcsolat" class="link">Kapcsolat</a>
                 <a href="https://laravel.com/docs" class="link" target="_blank">Laravel Docs</a>
             </div>
         </div>

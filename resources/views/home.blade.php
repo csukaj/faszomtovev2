@@ -121,6 +121,7 @@
                 </div>
 
                 <a href="/" class="back-link">← Vissza a kezdőlapra</a>
+                <a href="/kapcsolat" class="back-link" style="margin-left: 1rem;">📞 Kapcsolat</a>
             </div>
         </div>
     </body>
